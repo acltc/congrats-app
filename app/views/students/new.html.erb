@@ -1,0 +1,21 @@
+<%= form_tag '/create_the_student', method: :post do %>
+  <div>
+    <%= label_tag :name, "Name" %>
+    <%= text_field_tag :name, @student.name %>
+  </div>
+  <div>
+    <%= label_tag :video_1, "Video 1" %>
+    <%= text_field_tag :video_1, @student.video_1 %>
+  </div>
+  <div>
+    <%= label_tag :video_2, "Video 2" %>
+    <%= text_field_tag :video_2, @student.video_2 %>
+  </div>
+  <div>
+    <%= label_tag :video_3, "Video 3" %>
+    <%= text_field_tag :video_3, @student.video_3 %>
+  </div>
+  <div>
+    <%= submit_tag "Create Student" %>
+  </div>
+<% end %>

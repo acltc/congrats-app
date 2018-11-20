@@ -1,0 +1,73 @@
+body, html{
+	margin: 0px;
+	height: 100%;
+	overflow-y: hidden;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#container {
+  position: relative;
+}
+
+#container canvas, #overlay {
+  position: absolute;
+  width: 100%;
+}
+
+canvas {
+  border: 1px solid black;
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+h2 {
+	color: white;
+	font-size: 100px;
+	text-transform: uppercase;
+	margin: 0px 0px 10px 0px;
+}
+
+.space {
+	height: 100px;
+}
+
+.center {
+	width: 580px;
+	margin: auto;
+	text-align: center;	
+}
+
+.logo {
+	width: 150px;
+}
+
+.h1-div {
+	width: 150px;
+	margin: auto;
+}
+
+.videos {
+	width: 1230px;
+	margin: auto;
+	text-align: center;
+	height: 500px;
+}
+
+.video-container {
+	width: 400px;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
