@@ -1,7 +1,6 @@
 body, html{
 	margin: 0px;
 	height: 100%;
-	overflow-y: hidden;
 	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -47,16 +46,10 @@ h2 {
 	width: 150px;
 }
 
-.h1-div {
-	width: 150px;
-	margin: auto;
-}
-
 .videos {
 	width: 1230px;
 	margin: auto;
 	text-align: center;
-	height: 500px;
 }
 
 .video-container {
@@ -70,4 +63,32 @@ h2 {
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
+}
+
+@media (max-width: 800px) {
+
+	.center {
+		width: 400px;
+	}
+
+	h1 {
+		font-size: 44px;
+	}
+
+	.logo {
+		width: 75px;
+	}
+
+	.videos {
+		width: 300px;
+		margin: auto;
+	}
+
+	.video-container {
+		width: 300px;
+		margin: 5px auto;
+	}
+
+
+
 }
